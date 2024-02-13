@@ -1,0 +1,32 @@
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #1b1a19;
+    padding: 0.5rem;
+    text-align: center;
+    color: rgba(102, 102, 102, 0.8);
+    
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Additional styling for social media icons */
+  .footer a {
+    color: rgba(102, 102, 102, 0.8);
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #2bce92;
+  }
+  
+.footer-text {
+    color: #2bce92;
+    font-size: small;
+}
+  

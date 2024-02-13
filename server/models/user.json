@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Peter",
+        "email": "peter@email.com",
+        "password": "password",
+        "transactions": [
+            {
+                "title": "groceries",
+                "amount": "x dollar",
+                "date": "01-30-2024",
+                "category": "Food-Groceries",
+                "description": "bought milk for the kids"
+            }
+        ]
+    },
+    {
+        "name": "Paul",
+        "email": "paul@email.com",
+        "password": "password",
+        "expense": [
+            {
+                "title": "groceries",
+                "amount": "x dollar",
+                "date": "01-30-2024",
+                "category": "Food-Groceries",
+                "description": "bought milk for the kids"
+            }
+        ]
+    }
+]

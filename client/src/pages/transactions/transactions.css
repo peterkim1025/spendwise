@@ -1,0 +1,162 @@
+/* transactions.css */
+
+/* Ensure the container takes up the full viewport height */
+.transaction-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  background: #201f1e;
+  color: #fff;
+  min-height: 100vh; /* Use full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds viewport height */
+}
+
+/* Header style */
+.expense-tracker-header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #218b6b;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+/* Transaction table header */
+#transaction-table-header {
+  font-size: 1.5rem;
+  color: #218b6b;
+  margin-bottom: 1rem;
+}
+
+/* Add transaction button style */
+.add-transaction-button {
+  background-color: #218b6b !important;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-transaction-button:hover {
+  background-color: #1a6952;
+}
+
+/* Modal background overlay */
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal style */
+.modal {
+  background-color: rgba(119, 114, 114, 0.249);
+  backdrop-filter: blur(10px);
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Modal header style */
+.modal-header {
+  background-color: #201f1e;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid #218b6b !important;
+}
+
+/* Modal body style */
+.modal-body {
+  padding: 0;
+  background-color: #201f1e;
+}
+
+/* Close button style */
+.close {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+/* Table style */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #2e2626;
+}
+
+table td,
+table th {
+  padding: 0.75rem;
+  border: 1px solid #218b6b;
+  text-align: left;
+}
+
+table th {
+  background-color: #2b2a28;
+}
+
+/* Loading indicator style */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #fff;
+}
+
+/* Transaction form style */
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1a19 !important;
+
+}
+
+.transaction-form label {
+  margin-bottom: 0;
+}
+
+.transaction-form input,
+.transaction-form select,
+.transaction-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #2b2a28 !important;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #2b2a28 !important;
+}
+
+/* Submit button style */
+.transaction-form button {
+  background-color: #218b6b;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-form button:hover {
+  background-color: #1a6952;
+}

@@ -1,0 +1,106 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: #1b1a19;
+  padding: 0.5rem;
+  text-align: center;
+  color: rgba(102, 102, 102, 0.8);
+}
+.brand {
+  color:#218b6b;
+  font-weight: 600;
+  font-family: 'Tektur';
+}
+
+.navbar p {
+  margin: 0;
+}
+
+/* Additional styling for social media icons */
+.navbar a {
+  color: rgba(162, 162, 162, 0.8);
+  text-decoration: none;
+}
+
+.navbar-nav {
+  margin-left: auto; /* Push the navbar items to the right */
+}
+
+.navbar a:hover {
+  color: #218b6b;
+}
+
+.navbar-text {
+  color: #218b6b;
+  font-size: small;
+}
+
+
+/* Tabs */
+.custom-modal .nav-pills .nav-link.active,
+.custom-modal .nav-pills .show > .nav-link {
+  background-color: #218b6b;
+  color: #201f1e;
+}
+
+.custom-modal .nav-pills .nav-link {
+  color:#218b6b;
+}
+
+.custom-modal .nav-pills .nav-link:hover {
+  background-color: #218b6b;
+  color: #fff;
+}
+
+/* Modal Header */
+.modal-header {
+  background: #201f1e !important;
+  padding: 1rem;
+}
+
+
+
+/* Modal Title */
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 1.5rem;
+  background: #201f1e; /* Change background color */
+}
+
+/* Form Inputs */
+.form-control {
+  margin-bottom: 1rem;
+  border-color: #2b2a28 !important; /* Add !important */
+  color: #fff !important; /* Add !important */
+  background-color: #2b2a28 !important; 
+}
+
+.custom-label {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    width: 90%; /* Adjust modal width for smaller screens */
+    margin: 10% auto; /* Center modal vertically */
+  }
+  
+  .modal-title {
+    font-size: 1.2rem; /* Decrease title font size for smaller screens */
+  }
+  
+  .modal-body {
+    padding: 1rem; /* Decrease body padding for smaller screens */
+  }
+  
+  .form-control {
+    font-size: small; /* Decrease input font size for smaller screens */
+  }
+}
